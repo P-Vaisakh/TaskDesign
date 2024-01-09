@@ -11,6 +11,19 @@ body {
   background: #000000;
 }
 
+.cross {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px 20px 0 0;
+  width: 20px;
+  transition: transform 0.8s ease;
+}
+
+.cross:hover {
+  transform: rotate(180deg);
+}
+
 .main_section {
   width: 100%;
   padding-inline: 190px;
@@ -308,13 +321,13 @@ body {
   .cover_button {
     width: 90%;
   }
-  .card{
+  .card {
     display: block;
     margin: auto;
   }
   .second_section {
     grid-template-columns: 1fr;
-     align-items: center;
+    align-items: center;
     justify-content: center;
     padding-inline-start: 5px;
   }
@@ -340,5 +353,7 @@ body {
   .credits {
     margin-top: 100px;
   }
- 
+  .cross {
+    display: none;
+  }
 }

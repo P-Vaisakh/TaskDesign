@@ -8,6 +8,12 @@ import ThirdSection from "./ThirdSection";
 function App() {
   return (
     <div className="main_section">
+      <img
+        src="/img/Group.png"
+        alt=""
+        className="cross"
+        
+      />
       <div className="cover_img_div">
         <h1 className="hero_text">
           Epic Games : An American video game and software developer and
@@ -26,7 +32,7 @@ function App() {
       </div>
       <SecondSection />
       <ThirdSection></ThirdSection>
-      <FinalSection/>
+      <FinalSection />
     </div>
   );
 }
